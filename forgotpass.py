@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import smtplib  # For sending emails (optional)
-
+#ADDING Sample text to check myself
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Needed for flashing messages
 
