@@ -18,7 +18,7 @@ def login():
     username = request.form['username']
     password = request.form['password']
     
-    # Placeholder for authentication logic
+    # Placeholder  for the authentication logic
     if username == 'admin' and password == 'password':
         return "Login successful!"
     else:
